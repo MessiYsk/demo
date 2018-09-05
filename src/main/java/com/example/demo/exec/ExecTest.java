@@ -9,6 +9,9 @@ package com.example.demo.exec;
 
 import com.example.demo.utils.CodeUtils;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * TODO
  *
@@ -27,6 +30,10 @@ public class ExecTest {
         Long num = CodeUtils.decodeCode("6z738j5");
 
         System.out.println(num);
+
+        List list = Arrays.asList(1, 2);
+
+        System.out.println(list);
 
     }
 }
